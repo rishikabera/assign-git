@@ -35,7 +35,6 @@ Answers 3.
 Branches in Git has proved to be beneficial because in a project, you can safely work in a branch without need to worry about affecting the man project. When everything in a branch is correct and conflicts resolved, you can then merge those code in the branch safely back to the main(or master) thus preventing any disastrous errors which might harm the overall project.
 --------------------------------------------------------------------------------------------------------------
 Answers 4.
-You can have as many repositiories you really want.
-In a project , usually we have the same  number of repositories as the count of the members in a project.
+Usually only one repository in a project
 --------------------------------------------------------------------------------------------
  
