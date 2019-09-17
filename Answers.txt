@@ -1,0 +1,41 @@
+Git Assignment Answers text file
+------------------------------------------------------------------------------------------------------------
+Answers 1.
+The .gitignore file tells Git to ignore files/folders in a project.
+The files which should be included in java in .gitignore are-
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+------------------------------------------------------------------------------------------------
+Answers 2.
+When git merges a branch to the checked out branch which is lot ahead of your checked out branch, we say git has fast-forwarded. For example a branch and a master branch is getting merged, the normal branch is way ahead of master branch at the time of merge and has only one commit before the merge. At the time of the merge, it 'fast-forwards' the master branch's pointer to the previous branch with merged commits.
+-----------------------------------------------------------------------------------------------------
+Answers 3.
+Branches in Git has proved to be beneficial because in a project, you can safely work in a branch without need to worry about affecting the man project. When everything in a branch is correct and conflicts resolved, you can then merge those code in the branch safely back to the main(or master) thus preventing any disastrous errors which might harm the overall project.
+--------------------------------------------------------------------------------------------------------------
+Answers 4.
+You can have as many repositiories you really want.
+In a project , usually we have the same  number of repositories as the count of the members in a project.
+--------------------------------------------------------------------------------------------
+ 
